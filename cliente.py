@@ -9,7 +9,7 @@ def verificar_conexion():
     try:
         response = requests.get(BASE_URL, timeout=5)
         if response.status_code == 200:
-            print("✅ Conexión con el módulo de replicación establecida.\n")
+            print("✅ Conexión con el servidor establecida.\n")
             return True
     except requests.RequestException:
         print("❌ Error: No se pudo conectar con el servidor. Asegúrate de que está en ejecución.")
