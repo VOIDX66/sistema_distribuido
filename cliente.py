@@ -114,10 +114,10 @@ def menu():
             id_producto = input_con_salida("ID del producto: ")
             if id_producto is None: continue
 
-            nombre = input_con_salida("Nuevo nombre (dejar en blanco si no cambia): ")
-            descripcion = input_con_salida("Nueva descripción (dejar en blanco si no cambia): ")
-            cantidad = input_con_salida("Nueva cantidad (dejar en blanco si no cambia): ")
-            precio = input_con_salida("Nuevo precio (dejar en blanco si no cambia): ")
+            nombre = input_con_salida("Nuevo nombre: ")
+            descripcion = input_con_salida("Nueva descripción: ")
+            cantidad = input_con_salida("Nueva cantidad: ")
+            precio = input_con_salida("Nuevo precio: ")
 
             args = argparse.Namespace(
                 id=int(id_producto),
