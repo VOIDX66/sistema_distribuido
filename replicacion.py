@@ -6,7 +6,7 @@ import time
 app = Flask(__name__)
 
 SERVIDORES = ["http://localhost:5000", "http://localhost:5001"]
-SYNC_INTERVAL = 10  # Intervalo de sincronización en segundos
+SYNC_INTERVAL = 5  # Intervalo de sincronización en segundos
 
 def obtener_servidor_mas_actualizado():
     """Determina qué servidor tiene el último cambio registrado."""
