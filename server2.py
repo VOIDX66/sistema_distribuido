@@ -154,4 +154,4 @@ def obtener_ultimo_cambio():
 if __name__ == "__main__":
     print(f"🔄 Iniciando servidor {SERVER_NAME}...")
     conectar_bd()  # Verificar conexión al iniciar
-    app.run(host="0.0.0.0", port=5001)
+    app.run(host="0.0.0.0", port=5002)

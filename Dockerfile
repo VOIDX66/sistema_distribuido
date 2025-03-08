@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Exponer el puerto
-EXPOSE 5001
+EXPOSE 5002
 
 # 🔥 Configurar la zona horaria dentro del contenedor (para PostgreSQL y el sistema)
 ENV TZ=America/Bogota

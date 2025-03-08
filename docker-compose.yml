@@ -27,9 +27,9 @@ services:
       DB_NAME: "my_db"
       DB_USER: "cliente_sistema"
       DB_PASSWORD: "misistema"
-      PORT: "5001"
+      PORT: "5002"
     ports:
-      - "5001:5001"
+      - "5002:5002"
 
 volumes:
   db_data:
